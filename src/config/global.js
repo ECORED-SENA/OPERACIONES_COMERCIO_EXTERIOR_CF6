@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Procedimientos aduaneros',
     descripcionCurso:
       'Las operaciones de comercio exterior deben estar configuradas bajo una normativa legal vigente que permita comprender, realizar y ejecutar cada una de las actividades, acciones u operaciones conforme a lo previsto por el ente que lo regula para que a partir de lo normado se desarrollen cada uno de los requerimientos establecidos y se garantice la efectividad del proceso.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo.png'),
   },
   menuPrincipal: {
     menu: [

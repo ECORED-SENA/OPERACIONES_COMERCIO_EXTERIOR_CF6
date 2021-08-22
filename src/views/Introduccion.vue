@@ -11,7 +11,11 @@
     
     
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+    p.mb-5 El comercio exterior permite mejorar la diversidad de bienes y servicios de los países que apuestan por la liberalización de los mercados para poder satisfacer sus necesidades de consumo, permitiendo resolver un problema fundamental: los excedentes de producción y el abastecimiento. Además, se relacionan los ingresos de cada país y permite el desarrollo del potencial que posibilita consolidar en las naciones, el cumplimiento de los objetivos del desarrollo sostenible. Todo esto requiere la aplicación de procesos y pasos denominados: “procedimientos aduaneros”, que el futuro Técnico en Operaciones de Comercio Exterior, debe conocer y aplicar, objetivo del presente componente. Conozca el siguiente video introductorio al tema:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
 
 
 
