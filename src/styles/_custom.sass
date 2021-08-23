@@ -4,10 +4,19 @@
 .cajon.color-primario:before 
   background-color: #BBABF5
 
+.cajon.color-secundario 
+  background-color: #dc9ce840
+  
+.cajon.color-secundario:before 
+  background-color: #DC9CE8
+
 .linea-tiempo-b.color-acento-contenido .linea-tiempo-b__icon 
   background-color: #6dc5db
+
 .contenedorColor
   background-color: #f8f0fa9f
+.contenedorColor--azulado
+  background-color: #36a3f71a
 
 
 .pasos-a.color-secundario .pasos-a__circle 
@@ -19,19 +28,62 @@
 .pasos-a.color-secundario .pasos-a__linea__esquina__linea 
   border-color: #F739A8
 
-
-
-
+.fa-check
+  color: $color-secundario
 
 .pasos-a__circle 
     width: 60px
     height: 60px
+
+
+
+
+
+///tarjetas con fondo
+
+.tarjeta-avatar
+  .bordeSuperior
+    display: inline-block
+    padding-top: 60px !important
+    height: 100%
+    border-top: 5px solid $color-acento-contenido
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.25)
   
+.fblanco
+  //background-color: $white !important
+
+.bg-tarjetas1
+  background-image: url(../assets/curso/tema1/bg-tarjetas.svg)
+  background-position: bottom center
+  background-size: contain
+  background-repeat: no-repeat
+.bg-tarjetas2
+  background-image: url(../assets/curso/tema1/bg-tarjetas2.svg)
+  background-position: bottom 
+  background-size: contain
+  background-repeat: no-repeat
   
+//FIN TARJETAS CON FONDO
+.bg-top
+  background-image: url(../assets/curso/tema1/fondoTop.svg)
+  background-position: top 
+  background-size: auto
+  background-repeat: no-repeat
+.bg-top2
+  background-image: url(../assets/curso/tema1/fondoTop2.svg)
+  background-position: top 
+  background-size: auto
+  background-repeat: no-repeat
   
+
+.tarjeta.color-primario
+  background-color: #bbabf540
+
+
+
 @media screen and ( min-width: 991px)
   
-  .contenedorColor
+  .contenedorColor, .contenedorColor--azulado, .bg-top, .bg-top2
     margin-left: -3rem
     margin-right: -3rem
     
