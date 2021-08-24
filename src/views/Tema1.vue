@@ -195,10 +195,13 @@
 
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-secundario.px-3.py-4.mb-5
+        .tarjeta.color-secundario.px-3.py-4.mb-5.degra
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src='@/assets/componentes/ej-02.svg')
+            .col-4.col-sm-.col-lg-2
+              img.mx-auto(
+                src='@/assets/curso/tema1/iconW.svg',
+                style='width: 93px'
+              )
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -234,7 +237,9 @@
           p.mb-0 Conceptos de exportación e importación
 
       .col-lg-8.mb-5
-        .row.justify-content-center(style='background-color: #F3F9FF; border-radius: 25px;')
+        .row.justify-content-center(
+          style='background-color: #f3f9ff; border-radius: 25px'
+        )
           .col-lg-12
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
@@ -243,7 +248,7 @@
                 .p-4.py-5
                   h4 Exportación:
                   p.mb-0 es la salida de mercancías del territorio aduanero nacional con destino a otro país.
-          
+
           .col-lg-12
             .tarjeta-avatar-b.mb-0
               .tarjeta-avatar-b__img
@@ -290,13 +295,13 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
           p.mb-0 Los regímenes aduaneros
-      
+
       .col-lg-10.mb-5
         figure(data-aos='fade-left')
           img.mx-auto(
             src='@/assets/curso/tema1/especial3.svg',
             alt='Los regímenes aduaneros',
-            style='width: 1030px;'
+            style='width: 1030px'
           )
 
     .row.justify-content-center.mb-4
@@ -327,8 +332,8 @@
 
     .row.justify-content-center
       .col-lg-11
-        .row(style='justify-content:space-evenly;')
-          .col-lg-6.mb-5(style='padding-right:20px;')
+        .row(style='justify-content: space-evenly')
+          .col-lg-6.mb-5(style='padding-right: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon5.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas1
@@ -362,7 +367,7 @@
                         li 
                           i.fas.fa-check
                           p.mb-0 Forma de pago de la negociación.
-          .col-lg-6.mb-5(style='padding-left:20px;')
+          .col-lg-6.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon6.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas2
@@ -390,45 +395,44 @@
                         li 
                           i.fas.fa-check
                           p.mb-0 Volumen de carga.
-    
+
     .row.justify-content-center
       .col-lg-11
-        .row(style='justify-content:space-evenly;')
-          .col-lg-6.mb-5(style='padding-right:20px;')
+        .row(style='justify-content: space-evenly')
+          .col-lg-6.mb-5(style='padding-right: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon9.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas1
                 .p-5.pb-0
                   h3.text-center Vistos buenos
-                  p.text-center Es el requerimiento exigido por algunas autoridades especiales en el territorio nacional y dependen de las características del producto que se desea exportar y los trámites respectivos que se deban cumplir a través de la Ventanilla Única de comercio exterior. Cabe destacar que hay productos de libre exportación no condicionados a los registros o vistos buenos. 
-                  
-          .col-lg-6.mb-5(style='padding-left:20px;')
+                  p.text-center Es el requerimiento exigido por algunas autoridades especiales en el territorio nacional y dependen de las características del producto que se desea exportar y los trámites respectivos que se deban cumplir a través de la Ventanilla Única de comercio exterior. Cabe destacar que hay productos de libre exportación no condicionados a los registros o vistos buenos.
+          
+          .col-lg-6.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon10.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-5.pb-0
                   h3.text-center Carta de responsabilidad
                   p.text-center Es un documento fundamental en el proceso de exportación con el objetivo de acompañar las mercancías durante su desplazamiento en el territorio nacional. Su función es hacer saber a las autoridades competentes que las mercancías que saldrán del país no tienen ninguna contaminación, armas, explosivos o precursores químicos.
-    
+
     .row.justify-content-center.mb-5
       .col-lg-11
-        .row(style='justify-content:space-evenly;')
-          .col-lg-6.mb-5(style='padding-right:20px;')
+        .row(style='justify-content: space-evenly')
+          .col-lg-6.mb-5(style='padding-right: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon11.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas1
                 .p-5.pb-0
                   h3.text-center Certificado de origen
                   p.text-center Es una condición que deben cumplir los bienes o mercancías originarios de Colombia en cumplimiento del marco del acuerdo comercial que aplique dependiendo del destino o mercado externo al que se desee exportar. Así mismo, debe contar con el Registro de Producción.
-                  
-          .col-lg-6.mb-5(style='padding-left:20px;')
+
+          .col-lg-6.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema1/icon12.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-5.pb-0
                   h3.text-center Otros documentos exigidos para exportar
                   p.text-center Las fichas técnicas, fichas de manipulación del producto y el seguro.
-                  
 
     p.mb-4 Además de los documentos anteriores, se relacionan a continuación los documentos soporte contemplados en el Decreto 1165 de 2019 para presentar la declaración de exportación:
     .row.justify-content-center.mb-4
@@ -439,7 +443,7 @@
           table
             caption Nota. Elaboración propia a partir del Decreto 1165 de 2019
             tr
-              th(style='font-size:17px; width:45%;') Estos son los documentos para realizar una exportación en Colombia
+              th(style='font-size: 17px; width: 45%') Estos son los documentos para realizar una exportación en Colombia
               td
                 ul.lista-ul
                   li 
@@ -452,14 +456,14 @@
                     i.fas.fa-check
                     p.mb-0 Ubicación de la subpartida arancelaria.
             tr
-              th(style='font-size:17px;') Procedimiento ante el Ministerio de Comercio, Industria y Turismo
+              th(style='font-size: 17px') Procedimiento ante el Ministerio de Comercio, Industria y Turismo
               td
                 ul.lista-ul
                   li 
                     i.fas.fa-check
                     p.mb-0 Solicitud de Determinación de Origen – Declaración Juramentada.
             tr
-              th(style='font-size:17px;') En el trámite de exportación estos son los documentos necesarios ante la DIAN
+              th(style='font-size: 17px') En el trámite de exportación estos son los documentos necesarios ante la DIAN
               td
                 ul.lista-ul
                   li 
@@ -478,10 +482,8 @@
                     i.fas.fa-check
                     p.mb-0 Otros documentos exigidos para el producto exportador.
             tr
-              th.px-4.py-3(colspan='2', style='font-size:17px;') 
+              th.px-4.py-3(colspan='2', style='font-size: 17px') 
                 p.mb-0 #[strong Procedimientos cambiarios (reintegro de divisas)]
-            
-
 
     p.mb-4 En relación con los documentos soporte, para presentar la declaración de importación el Decreto 1165 de 2019 exige el cumplimiento obligatorio de unas condiciones fijadas en el Artículo 117, que reza de la siguiente manera:
     .row.justify-content-center
@@ -504,8 +506,8 @@
       .col-lg-10.mt-5
         PasosA.color-secundario.mb-5(tipo='n')
           .row
-            .col-md-7
-              .row.justify-content-center(style='background-color: #ff0;')
+            .col-md-5
+              .row.card-custom--left
                 .col-auto
                   figure
                     img.mx-auto(
@@ -513,50 +515,430 @@
                       alt='imagen ambiental',
                       style='width: 58px'
                     )
-                .col-8.align-self-center
+                .col-9.align-self-center
                   p.mb-2 Registro o licencia de importación que ampare la mercancía
-          .row
-            .col-md-8
-              .row.justify-content-center
+
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col-auto.align-self-center
+                  p.mb-2 Factura comercial
                 .col-auto
-                  figure.mb-5
+                  figure
                     img.mx-auto(
-                      src='@/assets/curso/tema1/icon13.svg',
+                      src='@/assets/curso/tema1/icon14.svg',
                       alt='imagen ambiental',
                       style='width: 58px'
                     )
-                .col
-                  p.mb-2 Registro o licencia de importación que ampare la mercancía
+
           .row
-            .col-md-8
-              .row.justify-content-center
-                .col-auto
-                  figure.mb-5
+            .col-md-5
+              .row.card-custom--left
+                .col-auto.align-self-center
+                  figure
                     img.mx-auto(
-                      src='@/assets/curso/tema1/icon13.svg',
+                      src='@/assets/curso/tema1/icon15.svg',
                       alt='imagen ambiental',
                       style='width: 58px'
                     )
-                .col
-                  p.mb-2 Registro o licencia de importación que ampare la mercancía
+                .col-9.align-self-center
+                  p.mb-2 Documento de transporte
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col-auto.align-self-center
+                  p.mb-2 Lista de empaque
+                .col-auto
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon16.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
+          .row
+            .col-md-5
+              .row.card-custom--left
+                .col-auto
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon17.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
+                .col-9.align-self-center
+                  p.mb-2 Certificado de sanidad
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col-auto.align-self-center
+                  p.mb-2 Lista de empaque
+                .col-auto
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon16.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
 
+          .row
+            .col-md-5
+              .row.card-custom--left
+                .col-auto
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon19.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
+                .col-9.align-self-center
+                  p.mb-2 Mandato, cuando no exista endoso aduanero
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col.align-self-center
+                  p.mb-2 Declaración andina del valor en aduana, si se requiere
+                .col-auto.align-self-center
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon20.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
 
+          .row
+            .col-md-5
+              .row.card-custom--left
+                .col-auto.align-self-center
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon20.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
+                .col.align-self-center
+                  p.mb-2 Declaración de exportación o el documento que acredite la operación de exportación
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col.align-self-center
+                  p.mb-2 Las autorizaciones previas para la importación de determinadas mercancías establecidas por la DIAN
+                .col-auto.align-self-center
+                  figure
+                    img.mx-auto.ali-self-center(
+                      src='@/assets/curso/tema1/icon22.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
 
+          .row
+            .col-md-7
+              .row.justify-content-center.card-custom--left
+                .col-auto.align-self-center
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon15.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
+                .col.align-self-center
+                  p.mb-2 Documento de constitución del consorcio o unión temporal si la operación de comercio exterior se consiga, endosan o expiden a nombre de esta.
 
+          .row.justify-content-end
+            .col-md-5
+              .row.card-custom--right
+                .col.align-self-center
+                  p.mb-2 Otros certificados o vistos buenos, si se requieren
+                .col-auto.align-self-center
+                  figure
+                    img.mx-auto(
+                      src='@/assets/curso/tema1/icon17.svg',
+                      alt='imagen ambiental',
+                      style='width: 58px'
+                    )
 
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p Los documentos soporte para la declaración de importación mencionados anteriormente deben conservarse según lo que estipulado en el Artículo 177, y el declarante deberá registrar el número y fecha de la presentación y aceptación de la declaración de importación. En relación con las declaraciones manuales de importación el Decreto 360 de 2021 en su Artículo 177 en el parágrafo 1 precisa sobre su conservación y exige que el declarante debe consignar el número y fecha de la presentación y aceptación de la declaración de importación a la cual corresponden. Cuando se trate de un documento soporte electrónico se debe realizar a través de la declaración de importación correspondiente a través los de los servicios informáticos electrónicos de la DIAN.
+                  br
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img.mx-auto(
+                  src='@/assets/curso/tema1/img16.svg',
+                  alt='imagen ambiental',
+                  style='width: 338px'
+                )
 
-
-
-
-
+    p.mb-4 Frente a las mercancías que están amparadas a través de un registro o licencia de importación, certificado de origen, documento de transporte, factura comercial, sean objeto de despachos parciales, el declarante deberá dejar constancia de cada una de las declaraciones presentadas al dorso del original o copia del documento correspondiente, indicando el número de aceptación de la declaración de importación, la fecha y la cantidad declarada.
 
     separador
     #t_1_4.titulo-segundo
       .h2 1.4 Proceso de importación de mercancías al territorio aduanero nacional
 
+    .row.justify-content-center
+      .col-lg-6
+        p.mb-4 Para que una mercancía del exterior ingrese al territorio aduanero nacional se debe desarrollar una actividad conocida como importación y debe surtir un proceso que está descrito en el marco aduanero nacional. Una vez surtido el procedimiento para el ingreso de la mercancía, esta debe estar sometida a un destino aduanero o a una operación aduanera especial de ingreso.
+        p.mb-4 La importación es la actividad donde se hace el ingreso al territorio aduanero nacional de mercancías provenientes del exterior o que provengan de un depósito franco. Para la importación de mercancías al territorio aduanero nacional, es importante cumplir con las condiciones que se exigen en el marco normativo estipulado, que prevé desde las prohibiciones expresas, hasta las restricciones que pueden ser superadas. Es importante destacar, que el depósito franco es un destino aduanero y las mercancías allí almacenadas se podrán vender a viajeros que entren o salgan del país y que previamente cumplan con el régimen de importación de viajeros.
+      .col-auto
+        figure.mb-4
+          img.mx-auto(
+            src='@/assets/curso/tema1/img17.svg',
+            alt='imagen ambiental',
+            style='width: 598px'
+          )
+    p.mb-4 Los regímenes de importación que se establecen en el Decreto 1165 de 2019 y se consignan en la siguiente tabla. Los invitamos a hacer una lectura del Decreto 1165, Título 5, capítulos del 1 al 17:
+
+    .titulo-sexto.color-primario
+      p.mb-0 Régimen de importación contemplado en el Decreto 1165 de 2019, Título 5 Capítulo 1-17
+
+    .tabla-a.color-primario.mb-5 
+      table
+        caption Nota. Elaboración propia a partir del Decreto 1165 de 2019
+        thead
+          tr
+            th(style='font-size: 18px; width: 20%') Cap&iacute;tulo
+            th(style='font-size: 18px') Denominaci&oacute;n
+        tbody
+          tr
+            th(style='font-size: 16px')
+              br
+              | Cap&iacute;tulo I
+            td
+              | Llegada de la mercanc&iacute;a al territorio aduanero nacional.
+              br
+              | Art&iacute;culo 155 - Selecci&oacute;n para reconocimiento de carga.
+              br
+              | Art&iacute;culo 156 - Reconocimiento de la carga.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 2
+            td Provisiones de a bordo para consumo y para llevar.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 3
+            td Proceso de importaci&oacute;n.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 4
+            td
+              | Importaci&oacute;n ordinaria.
+              br
+              | Art&iacute;culo 184 - Toma de muestras por parte de la autoridad aduanera.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 5
+            td Importaci&oacute;n con franquicia.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 6
+            td Reimportaci&oacute;n por perfeccionamiento pasivo.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 7
+            td Reimportaci&oacute;n en el mismo estado.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 8
+            td Importaci&oacute;n en cumplimiento de garant&iacute;a.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 9
+            td Importaci&oacute;n temporal para reexportaci&oacute;n en el mismo estado.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 10
+            td
+              | Importaci&oacute;n temporal para perfeccionamiento activo.
+              br
+              | Secci&oacute;n 1 &ndash; Clases de importaci&oacute;n temporal para perfeccionamiento activo.
+              br
+              | Secci&oacute;n 2 &ndash; Importaci&oacute;n temporal para perfeccionamiento activo de bienes de capital. Secci&oacute;n 3 &ndash; Importaci&oacute;n temporal en desarrollo de sistemas especiales de importaci&oacute;n &ndash; exportaci&oacute;n.
+              br
+              | Secci&oacute;n 4 &ndash; Importaci&oacute;n temporal para procesamiento industrial.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 11
+            td
+              | Importaci&oacute;n para transformaci&oacute;n o ensamble Art&iacute;culo 250 - Importaci&oacute;n para transformaci&oacute;n y/o ensamble.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 12
+            td Tr&aacute;fico postal y env&iacute;os urgentes.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 13
+            td
+              | Entregas urgentes.
+              br
+              | Art&iacute;culo 265 - Entregas urgentes.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 14
+            td Viajeros.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 15
+            td
+              | Importaci&oacute;n de petr&oacute;leo y/o combustibles l&iacute;quidos derivados del petr&oacute;leo por poliductos y/o oleoductos.
+              br
+              | Art&iacute;culo 288 - Importaci&oacute;n de petr&oacute;leo y/o combustibles l&iacute;quidos derivados del petr&oacute;leo por poliductos u oleoductos.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 16
+            td Declaraciones de legalizaci&oacute;n y correcci&oacute;n y modificaci&oacute;n de la declaraci&oacute;n.
+          tr
+            th(style='font-size: 16px') Cap&iacute;tulo 17
+            td
+              | Clasificaci&oacute;n, origen y valoraci&oacute;n.
+              br
+              | Secci&oacute;n I &ndash; Resoluciones anticipadas.
+              br
+              | Secci&oacute;n 2 &ndash; Clasificaciones Arancelarias.
+              br
+              | Secci&oacute;n 3 &ndash; Origen de las mercanc&iacute;as.
+              br
+              | Secci&oacute;n 4 &ndash; Valor en aduana de las mercanc&iacute;as importadas.
+
+    .row.justify-content-center
+      .col-lg-8
+        .tarjeta.color-secundario.px-3.py-4.mb-5.degra
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src='@/assets/curso/tema1/iconW.svg', style='width: 93px')
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0.text-small Le invitamos a consultar el Decreto 1165 de 2019 en relación con la lectura y conocimiento de cada uno de los capítulos relacionados en el cuadro anterior del régimen de importación:
+                .col-sm-auto
+                  a.boton.color-acento-botones(
+                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    target='_blank'
+                  )
+                    span Descargar
+                    i.fas.fa-file-download
+
+    .row.justify-content-center
+      .col-lg-6
+        p.mb-4 Frente a los #[strong regímenes especiales] de importación es necesario destacar que su principal característica es, que tienen en cuenta el tipo y finalidad de la importación incluyéndolos en diversos grupos dependiendo de su naturaleza y de allí, se generan los respectivos pagos de los derechos e impuestos a la importación, así como los plazos, consolidación y tarifas únicas o la vinculación a los regímenes que no generan el pago de estos derechos si las mercancías permanecen en el sometimiento de los mismos.
+        p.mb-4 Los formatos utilizados en estos regímenes pueden ser la declaración aduanera de importación o similares que son de fácil diligenciamiento porque tiene procedimientos simples y claros.
+      .col-lg-5
+        figure.mb-4
+          img.mx-auto(
+            src='@/assets/curso/tema1/img18.svg',
+            alt='imagen ambiental',
+            style='width: 500px'
+          )
+
+    .row.justify-content-center
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 Regímenes especiales de importación
+        figure.mb-4(data-aos='fade-left')
+          img.mx-auto(
+            src='@/assets/curso/tema1/especial4.svg',
+            alt='imagen ambiental',
+            style='width: 615px'
+          )
+
+    .row.justify-content-center
+      .col-lg-8
+        .tarjeta.color-secundario.px-3.py-4.mb-5.degra
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src='@/assets/curso/tema1/iconW.svg', style='width: 93px')
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0.text-small Le invitamos a consultar la página web del Ministerio de Comercio, Industria y Turismo, donde se brinda información relevante para la importación en Colombia. ¿Cómo importar a Colombia?:
+                .col-sm-auto
+                  a.boton.color-acento-botones(
+                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    target='_blank'
+                  )
+                    span Descargar
+                    i.fas.fa-file-download
+
     separador
     #t_1_5.titulo-segundo
       .h2 1.5 Proceso de exportación de mercancías del territorio aduanero nacional
+
+    p.mb-4 Para entender con mayor claridad el proceso de exportación, nos remitimos al concepto considerado en el Decreto 1165 de 2019 y es el siguiente:
+    .row.justify-content
+      .col-lg-10
+        .cajon.color-primario.p-4.mb-5
+          p.mb-0 “La exportación es la salida de mercancías del territorio aduanero nacional con destino a otro país. También se considera exportación, además de las operaciones expresamente consagradas como tales en este decreto, la salida de mercancías a una Zona Franca, en los términos previstos en decreto”.
+
+    .cajon-b.color-acento-contenido.p-3.mb-5
+      p.mb-0 Es decir, que las mercancías que quieran salir del territorio nacional a los mercados internacionales, deben someterse a un régimen aduanero de exportación o a una operación aduanera especial de salida y cumplir con las formalidades aduaneras dictadas en esta materia que garantice el cumplimiento de los requisitos que la norma consagra, además de las condiciones fijadas en las prohibiciones que al respecto señala la ley.
+
+    .row.justify-content-center
+      .col-lg-5
+        figure.mb-5
+          img.mx-auto(
+            src='@/assets/curso/tema1/img19.svg',
+            alt='imagen ambiental',
+            style='width: 500px'
+          )
+      .col-lg-7
+        p.mb-4 Con base a lo anterior, es importante mencionar que:
+        ul.lista-ul
+          li.mb-4 
+            i.fas.fa-check
+            p.mb-0 Esta definición no hace distinción ni referencia al tipo de mercancías que pretenden salir del territorio aduanero nacional.
+          li.mb-4 
+            i.fas.fa-check
+            p.mb-0 Se podrán someter al régimen aduanero de exportación aquellas mercancías propias o extranjeras en condición de libre circulación a excepción de aquellas donde la exportación se configure como forma final de un régimen aduanero.
+          li.mb-5
+            i.fas.fa-check
+            p.mb-0 Para las mercancías extranjeras que permanecen de forma temporal y no están en libre circulación, pero quieran salir del territorio aduanero nacional o del depósito, deberán solicitar un reembarque o una reexportación. Cabe destacar, que en estas dos figuras las mercancías no se someten a un régimen aduanero.
+
+    p.mb-4 Por otra parte, y de acuerdo al del Régimen de Exportación del Decreto 1165 de 2019 en su Artículo 340 se presentan las modalidades del régimen de exportación y estos se muestran a continuación:
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-5(style='')
+        .tarjeta-avatar(data-aos='flip-left')
+          img(src='@/assets/curso/tema1/icon23.svg', alt='AvatarTop')
+          .bordeSuperior.cac.fblanco.bg-tarjetas1
+            .p-5.pb-0
+              .row.justify-content-center
+                .col-11
+                  ul.lista-ul
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación definitiva.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación temporal para perfeccionamiento pasivo.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación temporal para reimportación en el mismo estado.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Reexportación.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Reembarque.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación por tráfico postal y envíos urgente.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación de muestras sin valor comercial.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportaciones temporales realizadas por viajeros.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Exportación de menajes.
+                    li 
+                      i.fas.fa-check
+                      p.mb-0 Programas Especiales de Exportación.
+
+    .row.justify-content-center
+      .col-lg-8
+        .tarjeta.color-secundario.px-3.py-4.mb-5.degra
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src='@/assets/curso/tema1/iconW.svg', style='width: 93px')
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0.text-small Le invitamos a consultar la página web del Banco de la Republica donde se brinda información relevante para la exportación de un bien:
+                .col-sm-auto
+                  a.boton.color-acento-botones(
+                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    target='_blank'
+                  )
+                    span Descargar
+                    i.fas.fa-file-download
 </template>
 
 <script>
