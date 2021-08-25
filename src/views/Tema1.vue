@@ -799,7 +799,7 @@
                   p.mb-0.text-small Le invitamos a consultar el Decreto 1165 de 2019 en relación con la lectura y conocimiento de cada uno de los capítulos relacionados en el cuadro anterior del régimen de importación:
                 .col-sm-auto
                   a.boton.color-acento-botones(
-                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    :href='obtenerLink("/downloads/DECRETO-1165-DEL-2-DE-JULIO-DE-2019.pdf")',
                     target='_blank'
                   )
                     span Descargar
@@ -840,11 +840,11 @@
                   p.mb-0.text-small Le invitamos a consultar la página web del Ministerio de Comercio, Industria y Turismo, donde se brinda información relevante para la importación en Colombia. ¿Cómo importar a Colombia?:
                 .col-sm-auto
                   a.boton.color-acento-botones(
-                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    href='https://www.mincit.gov.co/estudios-economicos/como-importar-a-colombia',
                     target='_blank'
                   )
-                    span Descargar
-                    i.fas.fa-file-download
+                    span.px-4 Ver
+                    i.fas.fa-link
 
     separador
     #t_1_5.titulo-segundo
@@ -934,11 +934,11 @@
                   p.mb-0.text-small Le invitamos a consultar la página web del Banco de la Republica donde se brinda información relevante para la exportación de un bien:
                 .col-sm-auto
                   a.boton.color-acento-botones(
-                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    href='https://www.banrep.gov.co/es/jornadas-capacitacion-dcin-2015-2',
                     target='_blank'
                   )
-                    span Descargar
-                    i.fas.fa-file-download
+                    span.px-4 Ver
+                    i.fas.fa-link
 </template>
 
 <script>
