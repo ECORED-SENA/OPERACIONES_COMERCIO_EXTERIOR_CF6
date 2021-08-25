@@ -252,14 +252,14 @@
           p.mb-4 La inspección previa se podrá realizar con el objeto de extraer muestras o para efectos aduaneros, la mercancía podrá permanecer almacenada mientras se realizan los trámites para obtener su levante, hasta por el término de un (1) mes, contado desde la fecha de su llegada al territorio aduanero nacional. Cuando la mercancía se haya sometido a la modalidad de tránsito, la duración de este suspende el término aquí señalado hasta la cancelación de dicho régimen. Vencido el término previsto sin que se hubiere obtenido el levante, o sin que se hubiere reembarcado la mercancía, operará el abandono legal.
         .col-md-5
           figure
-            img.mx-auto(src='@/assets/curso/tema2/img8.png', alt='imagen ambiental')
+            img.mx-auto(src='@/assets/curso/tema2/img8.jpg', alt='imagen ambiental', style='width440px;')
       .row.justify-content-center(titulo="Término para la inspección aduanera ")
         .col-md-6.mb-4.mb-md-0
           p.mb-4 Con base en el Artículo 183 del Decreto 1165 de 2019.
           p.mb-4 La inspección aduanera deberá realizarse en forma continua y concluirse a más tardar el día siguiente en que se ordene su práctica, salvo cuando por razones justificadas se requiera de un período mayor, caso en el cual se podrá autorizar su ampliación.
         .col-md-5
           figure
-            img(src='@/assets/curso/tema2/img9.png', alt='imagen ambiental')
+            img(src='@/assets/curso/tema2/img9.jpg', alt='imagen ambiental', style='width440px;')
       .row.justify-content-center(titulo="Toma de muestras por parte de la autoridad aduanera ")
         .col-md-6.mb-4.mb-md-0
           p.mb-4 Con base con en el Artículo 184 del Decreto 1165 de 2019.
@@ -267,7 +267,7 @@
           p.mb-4 La Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN) reglamentará el proceso de toma de muestras, conservación, destinación, trazabilidad y custodia de las mismas, así como el segundo análisis cuando no exista conformidad del declarante respecto al primer análisis.
         .col-md-5
           figure
-            img(src='@/assets/curso/tema2/img10.png', alt='imagen ambiental')
+            img(src='@/assets/curso/tema2/img10.jpg', alt='imagen ambiental', style='width440px;')
       
       .row.justify-content-center(titulo="Autorización de levante")
         .col-lg-11 
@@ -275,7 +275,7 @@
           p.mb-4 Según el artículo 185 esta procede cuando:
         .col-md-5
           figure
-            img(src='@/assets/curso/tema2/img11.png', alt='imagen ambiental')
+            img(src='@/assets/curso/tema2/img11.jpg', alt='imagen ambiental', style='width440px;')
         .col-md-6.mb-4.mb-md-0
           ul.lista-ul
             li 
