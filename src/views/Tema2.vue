@@ -21,7 +21,8 @@
     h4.mb-4 Inspección aduanera, según Decreto 1165 del 2019
     p.mb-5 Para entender de qué se trata una inspección aduanera se trae de manera textual la definición del Decreto 1165 del 2019, que la define así:
     .cajon.color-secundario.p-4.mb-4
-      p.mb-0 “Es la actuación que realiza la autoridad aduanera competente con el fin de verificar la naturaleza, descripción, estado, cantidad, peso y medida; como el origen, valor y clasificación arancelaria de mercancías; para la correcta determinación de los tributos aduaneros, régimen aduanero y cualquier otro percibido por la aduana y para el cumplimiento de la legislación aduanera y disposiciones, cuya aplicación o ejecución sean de competencia o responsabilidad de la Unidad Administrativa Especial Dirección Impuestos y Aduanas Nacionales (DIAN)”.
+      p.mb-0 
+        i “Es la actuación que realiza la autoridad aduanera competente con el fin de verificar la naturaleza, descripción, estado, cantidad, peso y medida; como el origen, valor y clasificación arancelaria de mercancías; para la correcta determinación de los tributos aduaneros, régimen aduanero y cualquier otro percibido por la aduana y para el cumplimiento de la legislación aduanera y disposiciones, cuya aplicación o ejecución sean de competencia o responsabilidad de la Unidad Administrativa Especial Dirección Impuestos y Aduanas Nacionales (DIAN)”.
     
     p.mb-5 Es decir, que es un procedimiento que permite conocer las características de las mercancías y el cumplimiento de las exigencias previstas en la ley para tales fines. A continuación, algunos aspectos:
     h4.text-center.mb-5 En la inspección de mercancías de aduana es importante tener presente:

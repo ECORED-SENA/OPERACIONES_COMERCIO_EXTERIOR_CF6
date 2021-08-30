@@ -23,7 +23,7 @@
     #t_1_1.titulo-segundo
       .h2 1.1 Obligados aduaneros
 
-    p.mb-4 Antes de hacer referencia a los obligados aduaneros, es importante definir qué es un usuario aduanero y así, profundizar en los términos que se utilizarán en el desarrollo de la unidad temática. Un usuario aduanero es aquel que realiza operaciones de importación o exportación de bienes y/o servicios. Acá algunas definiciones:
+    p.mb-4 Antes de hacer referencia a los obligados aduaneros, es importante definir qué es un usuario aduanero y así, profundizar en los términos que se utilizarán en el desarrollo de la unidad temática. <i>Un usuario aduanero es aquel que realiza operaciones de importación o exportación de bienes y/o servicios.</i> Acá algunas definiciones:
     .contenedorColor
       .row.justify-content-center(style='margin-bottom: 80px')
         .col-lg-10
@@ -43,7 +43,8 @@
     .row.justify-content-center.bg-top
       .col-lg-11.mb-5.mt-5
         p.mb-4 Los obligados aduaneros, se establecen desde el Artículo 8 del Decreto 1165 de 2019, en donde están precisados de manera general al describirse como:
-        p.mb-4 “Las obligaciones derivadas de su intervención y por el suministro de toda documentación e información exigida por la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN).” Decreto 1165 de 2019.
+        p.mb-4 
+          i “Las obligaciones derivadas de su intervención y por el suministro de toda documentación e información exigida por la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN).” Decreto 1165 de 2019.
         p.mb-4 Es decir, que contempla un concepto sobre los obligados aduaneros y menciona las características que los definen para determinar sus responsabilidades de acuerdo con el desarrollo de sus actividades y elementos constitutivos. A continuación, se describen los principales obligados aduaneros:
 
     h4.text-center.mb-5 Principales obligados aduaneros
@@ -208,7 +209,7 @@
                   p.mb-0.text-small Es preciso destacar que en la figura 2, se contiene la información de manera general; sin embargo, es pertinente que se estudie con más detalle cada una de las características que se especifican en las diversas generalidades presentadas en el Decreto 1165, Artículo 32 del mismo decreto; por lo que se le invita a consultar dicho documento en el siguiente enlace:
                 .col-sm-auto
                   a.boton.color-acento-botones(
-                    :href='obtenerLink("/downloads/prueba.pdf")',
+                    :href='obtenerLink("/downloads/DECRETO-1165-DEL-2-DE-JULIO-DE-2019.pdf")',
                     target='_blank'
                   )
                     span Descargar
@@ -318,7 +319,8 @@
         p.mb-4 Los documentos requeridos y especificaciones de los mismos se convierten en la etapa más relevante cuando se va a realizar un proceso de exportación o importación porque permiten a través de estos trámites realizar una gestión aduanera adecuada y oportuna.
         p.mb-4 Al respecto el Decreto 2685 en su Artículo 7 establece:
         .cajon.color-secundario.p-4.mb-5
-          p.mb-0 “Las declaraciones de importación, exportación y tránsito aduanero deberán presentarse en los formularios oficiales que para el efecto determine la Dirección de Impuestos y Aduanas Nacionales, a través de medios electrónicos, o magnéticos, o excepcionalmente por medios documentales cuando ésta así lo autorice. En circunstancias especiales, la Dirección de Impuestos y Aduanas Nacionales podrá autorizar la presentación de declaraciones utilizando formularios habilitados para el efecto”.
+          p.mb-0 
+            i “Las declaraciones de importación, exportación y tránsito aduanero deberán presentarse en los formularios oficiales que para el efecto determine la Dirección de Impuestos y Aduanas Nacionales, a través de medios electrónicos, o magnéticos, o excepcionalmente por medios documentales cuando ésta así lo autorice. En circunstancias especiales, la Dirección de Impuestos y Aduanas Nacionales podrá autorizar la presentación de declaraciones utilizando formularios habilitados para el efecto”.
 
       .col-lg-5.align-self-center
         figure.mb-5
@@ -489,7 +491,8 @@
     .row.justify-content-center
       .col-lg-10
         .cajon.color-secundario.p-4.mb-5
-          p.mb-0 “Para efectos aduaneros, el declarante está obligado a obtener antes de la presentación y aceptación de la declaración y a conservar por un período de cinco (5) años contados a partir de dicha fecha, el original de los siguientes documentos que deberá poner a disposición de la autoridad aduanera, cuando esta así lo requiera”.
+          p.mb-0 
+            i “Para efectos aduaneros, el declarante está obligado a obtener antes de la presentación y aceptación de la declaración y a conservar por un período de cinco (5) años contados a partir de dicha fecha, el original de los siguientes documentos que deberá poner a disposición de la autoridad aduanera, cuando esta así lo requiera”.
         .row.justify-content-center
           .col-6
             p.mb-4 Dicha normativa fija una condición y presentación que el declarante está obligado a realizar, además de establecer un tiempo de conservación de los documentos originales que deben ser presentados según el requerimiento de las autoridades aduaneras.
@@ -662,8 +665,9 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Los documentos soporte para la declaración de importación mencionados anteriormente deben conservarse según lo que estipulado en el Artículo 177, y el declarante deberá registrar el número y fecha de la presentación y aceptación de la declaración de importación. En relación con las declaraciones manuales de importación el Decreto 360 de 2021 en su Artículo 177 en el parágrafo 1 precisa sobre su conservación y exige que el declarante debe consignar el número y fecha de la presentación y aceptación de la declaración de importación a la cual corresponden. Cuando se trate de un documento soporte electrónico se debe realizar a través de la declaración de importación correspondiente a través los de los servicios informáticos electrónicos de la DIAN.
-                  br
+                p 
+                  i Los documentos soporte para la declaración de importación mencionados anteriormente deben conservarse según lo que estipulado en el Artículo 177, y el declarante deberá registrar el número y fecha de la presentación y aceptación de la declaración de importación. En relación con las declaraciones manuales de importación el Decreto 360 de 2021 en su Artículo 177 en el parágrafo 1 precisa sobre su conservación y exige que el declarante debe consignar el número y fecha de la presentación y aceptación de la declaración de importación a la cual corresponden. Cuando se trate de un documento soporte electrónico se debe realizar a través de la declaración de importación correspondiente a través los de los servicios informáticos electrónicos de la DIAN.
+              
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img.mx-auto(
@@ -796,7 +800,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0.text-small Le invitamos a consultar el Decreto 1165 de 2019 en relación con la lectura y conocimiento de cada uno de los capítulos relacionados en el cuadro anterior del régimen de importación:
+                  p.mb-0.text-small Le invitamos a consultar el Decreto 1165 de 2019 en relación con la lectura y conocimiento de cada uno de los capítulos relacionados en el cuadro anterior del régimen de importación.
                 .col-sm-auto
                   a.boton.color-acento-botones(
                     :href='obtenerLink("/downloads/DECRETO-1165-DEL-2-DE-JULIO-DE-2019.pdf")',
@@ -824,7 +828,7 @@
         figure.mb-4(data-aos='fade-left')
           img.mx-auto(
             src='@/assets/curso/tema1/especial4.svg',
-            alt='imagen ambiental',
+            alt='Regímenes especiales de importación',
             style='width: 615px'
           )
 
@@ -837,7 +841,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0.text-small Le invitamos a consultar la página web del Ministerio de Comercio, Industria y Turismo, donde se brinda información relevante para la importación en Colombia. ¿Cómo importar a Colombia?:
+                  p.mb-0.text-small Le invitamos a consultar la página #[i web] del Ministerio de Comercio, Industria y Turismo, donde se brinda información relevante para la importación en Colombia. ¿Cómo importar a Colombia?:
                 .col-sm-auto
                   a.boton.color-acento-botones(
                     href='https://www.mincit.gov.co/estudios-economicos/como-importar-a-colombia',
@@ -854,7 +858,8 @@
     .row.justify-content
       .col-lg-10
         .cajon.color-primario.p-4.mb-5
-          p.mb-0 “La exportación es la salida de mercancías del territorio aduanero nacional con destino a otro país. También se considera exportación, además de las operaciones expresamente consagradas como tales en este decreto, la salida de mercancías a una Zona Franca, en los términos previstos en decreto”.
+          p.mb-0 
+            i “La exportación es la salida de mercancías del territorio aduanero nacional con destino a otro país. También se considera exportación, además de las operaciones expresamente consagradas como tales en este decreto, la salida de mercancías a una Zona Franca, en los términos previstos en decreto”.
 
     .cajon-b.color-acento-contenido.p-3.mb-5
       p.mb-0 Es decir, que las mercancías que quieran salir del territorio nacional a los mercados internacionales, deben someterse a un régimen aduanero de exportación o a una operación aduanera especial de salida y cumplir con las formalidades aduaneras dictadas en esta materia que garantice el cumplimiento de los requisitos que la norma consagra, además de las condiciones fijadas en las prohibiciones que al respecto señala la ley.
@@ -931,7 +936,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0.text-small Le invitamos a consultar la página web del Banco de la Republica donde se brinda información relevante para la exportación de un bien:
+                  p.mb-0.text-small Le invitamos a consultar la página #[i web] del Banco de la Republica donde se brinda información relevante para la exportación de un bien:
                 .col-sm-auto
                   a.boton.color-acento-botones(
                     href='https://www.banrep.gov.co/es/jornadas-capacitacion-dcin-2015-2',
@@ -951,19 +956,19 @@ export default {
       {
         titulo: 'DIAN',
         texto:
-          'En relación con la Unidad Administrativa Especial de la Dirección de Impuestos y Aduanas Nacionales- DIAN; los usuarios aduaneros tienen una clasificación que se identifica en el Registro Único Tributario (RUT)  con el código de responsabilidad 10 y es definido como “Aquella persona natural o jurídica, que interviene directa o indirectamente en las operaciones de importación y/o exportación de bienes y/o servicios y/o de tránsito aduanero”..',
+          'En relación con la Unidad Administrativa Especial de la Dirección de Impuestos y Aduanas Nacionales- DIAN; los usuarios aduaneros tienen una clasificación que se identifica en el Registro Único Tributario (RUT)  con el código de responsabilidad 10 y es definido como <i>“Aquella persona natural o jurídica, que interviene directa o indirectamente en las operaciones de importación y/o exportación de bienes y/o servicios y/o de tránsito aduanero”..</i>',
         icono: require('@/assets/curso/tema1/icon1.svg'),
       },
       {
         titulo: 'Decreto 1185',
         texto:
-          'El usuario Aduanero es “La persona natural, la persona jurídica o sucursal de sociedad extranjera, que parte o interviene, como importador, exportador, consorcio, unión temporal o declarante en los regímenes, modalidades, operaciones aduaneras o en cualquier trámite aduanero. También se considera usuario aduanero toda aquella persona que requiera autorización, habilitación o registro para actuar ante la administración aduanera”. <br><br>  <div class="cajon color-primario p-4 mb-0"><p class="mb-0">Como ejemplo de aplicación nativa podemos mencionar a Instagram o WhatsApp, a través de la cual, se pueden enviar mensajes de voz, tomar fotos,</p></div>',
+          'El usuario Aduanero es “La persona natural, la persona jurídica o sucursal de sociedad extranjera, que parte o interviene, como importador, exportador, consorcio, unión temporal o declarante en los regímenes, modalidades, operaciones aduaneras o en cualquier trámite aduanero. También se considera usuario aduanero toda aquella persona que requiera autorización, habilitación o registro para actuar ante la administración aduanera”.',
         icono: require('@/assets/curso/tema1/icon2.svg'),
       },
       {
         titulo: 'Decreto 1165 Artículo 5',
         texto:
-          'En relación a la obligación, los obligados y los responsables aduaneros, contempla el alcance de la obligación aduanera, estableciendo esto como una relación formal, que abarca todas las obligaciones aduaneras emprendidas desde la administración aduanera.<br>Además establece la naturaleza de dicha obligación, la cual es de carácter personal, sin perjuicio de que pueda ser aplicada la norma en las mercancías mediante el abandono o el decomiso, al ser consideradas como una garantía preferente sobre otros elementos constitutivos.',
+          'En relación a la obligación, los obligados y los responsables aduaneros, contempla el alcance de la obligación aduanera, estableciendo esto como una relación formal, que abarca todas las obligaciones aduaneras emprendidas desde la administración aduanera.<br>Además establece la naturaleza de dicha obligación, la cual es de carácter personal, sin perjuicio de que pueda ser aplicada la norma en las mercancías mediante el abandono o el decomiso, al ser consideradas como una garantía preferente sobre otros elementos constitutivos.<br><br>  <div class="cajon color-primario p-4 mb-0"><p class="mb-0">Es, por tanto, el usuario aduanero quien realiza actividades de exportación e importación y el desarrollo de estas operaciones, lo obliga a cumplir con las obligaciones contempladas en el sistema aduanero.</p></div>',
         icono: require('@/assets/curso/tema1/icon3.svg'),
       },
       {
