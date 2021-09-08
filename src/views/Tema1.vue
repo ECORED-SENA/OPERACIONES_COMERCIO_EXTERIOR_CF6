@@ -26,7 +26,7 @@
     p.mb-4 Antes de hacer referencia a los obligados aduaneros, es importante definir qué es un usuario aduanero y así, profundizar en los términos que se utilizarán en el desarrollo de la unidad temática. <i>Un usuario aduanero es aquel que realiza operaciones de importación o exportación de bienes y/o servicios.</i> Acá algunas definiciones:
     .contenedorColor
       .row.justify-content-center(style='margin-bottom: 80px')
-        .col-lg-10
+        .col-lg-10.mt-5
           LineaTiempoB.color-acento-contenido.mb-5(:datos='datosLineaTiempoB')
 
     .row.justify-content-center
@@ -342,7 +342,7 @@
                 .p-5.pb-0
                   h3.text-center La factura comercial
                   p.text-center Es el documento que se expide al cliente, bien sea en inglés o español y que da prueba de una relación comercial y deben cumplir con los requisitos determinados por la ley a saber:
-                  .row.justify-content-center
+                  .row.justify-content-center.mb-5
                     .col-11
                       ul.lista-ul
                         li 
@@ -376,7 +376,7 @@
                 .p-5.pb-0
                   h3.text-center Lista de empaque
                   p.text-center Permite identificar y manipular la mercancía dentro de los procedimientos aduaneros establecidos o las inspecciones necesarias a la carga. No es un documento obligatorio pero sí sugerido y deben indicar lo siguiente:
-                  .row.justify-content-center
+                  .row.justify-content-center.mb-5
                     .col-11
                       ul.lista-ul(style='padding-bottom: 35px')
                         li 
@@ -407,7 +407,7 @@
               .bordeSuperior.cac.fblanco.bg-tarjetas1
                 .p-5.pb-0
                   h3.text-center Vistos buenos
-                  p.text-center Es el requerimiento exigido por algunas autoridades especiales en el territorio nacional y dependen de las características del producto que se desea exportar y los trámites respectivos que se deban cumplir a través de la Ventanilla Única de comercio exterior. Cabe destacar que hay productos de libre exportación no condicionados a los registros o vistos buenos.
+                  p.text-center.mb-5 Es el requerimiento exigido por algunas autoridades especiales en el territorio nacional y dependen de las características del producto que se desea exportar y los trámites respectivos que se deban cumplir a través de la Ventanilla Única de comercio exterior. Cabe destacar que hay productos de libre exportación no condicionados a los registros o vistos buenos.
           
           .col-lg-6.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
@@ -415,7 +415,7 @@
               .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-5.pb-0
                   h3.text-center Carta de responsabilidad
-                  p.text-center Es un documento fundamental en el proceso de exportación con el objetivo de acompañar las mercancías durante su desplazamiento en el territorio nacional. Su función es hacer saber a las autoridades competentes que las mercancías que saldrán del país no tienen ninguna contaminación, armas, explosivos o precursores químicos.
+                  p.text-center.mb-5 Es un documento fundamental en el proceso de exportación con el objetivo de acompañar las mercancías durante su desplazamiento en el territorio nacional. Su función es hacer saber a las autoridades competentes que las mercancías que saldrán del país no tienen ninguna contaminación, armas, explosivos o precursores químicos.
 
     .row.justify-content-center.mb-5
       .col-lg-11
@@ -426,7 +426,7 @@
               .bordeSuperior.cac.fblanco.bg-tarjetas1
                 .p-5.pb-0
                   h3.text-center Certificado de origen
-                  p.text-center Es una condición que deben cumplir los bienes o mercancías originarios de Colombia en cumplimiento del marco del acuerdo comercial que aplique dependiendo del destino o mercado externo al que se desee exportar. Así mismo, debe contar con el Registro de Producción.
+                  p.text-center.mb-5 Es una condición que deben cumplir los bienes o mercancías originarios de Colombia en cumplimiento del marco del acuerdo comercial que aplique dependiendo del destino o mercado externo al que se desee exportar. Así mismo, debe contar con el Registro de Producción.
 
           .col-lg-6.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
@@ -434,7 +434,7 @@
               .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-5.pb-0
                   h3.text-center Otros documentos exigidos para exportar
-                  p.text-center Las fichas técnicas, fichas de manipulación del producto y el seguro.
+                  p.text-center.mb-5 Las fichas técnicas, fichas de manipulación del producto y el seguro.
 
     p.mb-4 Además de los documentos anteriores, se relacionan a continuación los documentos soporte contemplados en el Decreto 1165 de 2019 para presentar la declaración de exportación:
     .row.justify-content-center.mb-4
@@ -821,7 +821,7 @@
             style='width: 500px'
           )
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido
           p.mb-0 Regímenes especiales de importación
@@ -893,7 +893,7 @@
           img(src='@/assets/curso/tema1/icon23.svg', alt='AvatarTop')
           .bordeSuperior.cac.fblanco.bg-tarjetas1
             .p-5.pb-0
-              .row.justify-content-center
+              .row.justify-content-center.mb-5
                 .col-11
                   ul.lista-ul
                     li 
