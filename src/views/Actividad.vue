@@ -10,12 +10,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 
+          h2 Ponte a prueba 
         p.mb-4 Determinar si el aprendiz reconoce cuáles son los documentos necesarios para realizar una importación.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastra y suelta la palabra en la parte que corresponda.
+              p.fw-bold.mb-0 Arrastra y suelta la palabra en la parte que corresponda
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
