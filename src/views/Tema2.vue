@@ -212,9 +212,7 @@
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/tema2/icon2.svg', alt='AvatarIcono')
 
-    p.mb-4 A continuación, se presentan las principales características de las inspecciones documentales y físicas: 
-    .titulo-sexto.color-acento-contenido
-      p.mb-4 A continuación, se presentan las principales características de las inspecciones documentales y físicas: 
+    p.mb-5 A continuación, se presentan las principales características de las inspecciones documentales y físicas:     
 
     figure.mb-4(data-aos='fade-left')
       img.mx-auto(src='@/assets/curso/tema2/img6.svg',alt='principales características de las inspecciones documentales y físicas',style='')
@@ -299,7 +297,7 @@
               p.mb-0 Cuando practicada inspección aduanera o documental, se establezca la falta de alguno de los documentos soporte, o que estos no reúnen los requisitos legales, o que no se encuentren vigentes.
             li 
               i.fas.fa-check
-              p.mb-0 Cuando practicada inspección aduanera o documental se establezca el importador se ha acogido a un tratamiento arancelario preferencial y la mercancía declarada no se encuentre amparada por certificado de origen,
+              p.mb-0 Cuando practicada inspección aduanera o documental se establezca el importador se ha acogido a un tratamiento arancelario preferencial y la mercancía declarada no se encuentre amparada por certificado de origen.
             li 
               i.fas.fa-check
               p.mb-0 Entre otras disposiciones mencionadas en el artículo relacionado. 

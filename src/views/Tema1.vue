@@ -277,7 +277,7 @@
             | Deposito aduanero
           li 
             i.fas.fa-check
-            | Transito
+            | Tránsito
 
       .col-lg-6
         figure
@@ -320,7 +320,7 @@
         p.mb-4 Al respecto el Decreto 2685 en su Artículo 7 establece:
         .cajon.color-secundario.p-4.mb-5
           p.mb-0 
-            i “Las declaraciones de importación, exportación y tránsito aduanero deberán presentarse en los formularios oficiales que para el efecto determine la Dirección de Impuestos y Aduanas Nacionales, a través de medios electrónicos, o magnéticos, o excepcionalmente por medios documentales cuando ésta así lo autorice. En circunstancias especiales, la Dirección de Impuestos y Aduanas Nacionales podrá autorizar la presentación de declaraciones utilizando formularios habilitados para el efecto”.
+            i “Las declaraciones de importación, exportación y tránsito aduanero deberán presentarse en los formularios oficiales que para el efecto determine la Dirección de Impuestos y Aduanas Nacionales, a través de medios electrónicos, o magnéticos, o excepcionalmente por medios documentales cuando esta así lo autorice. En circunstancias especiales, la Dirección de Impuestos y Aduanas Nacionales podrá autorizar la presentación de declaraciones utilizando formularios habilitados para el efecto”.
 
       .col-lg-5.align-self-center
         figure.mb-5
@@ -384,10 +384,10 @@
                           p.mb-0 Lugar y fecha de embarque.
                         li 
                           i.fas.fa-check
-                          p.mb-0 Número de periodo..
+                          p.mb-0 Número de periodo.
                         li 
                           i.fas.fa-check
-                          p.mb-0 Fecha, nombre y razón social del vendedor y comprador
+                          p.mb-0 Fecha, nombre y razón social del vendedor y comprador.
                         li 
                           i.fas.fa-check
                           p.mb-0 Cantidad y tipo de embalaje con su numeración y contenido.
@@ -519,13 +519,13 @@
                       style='width: 58px'
                     )
                 .col-9.align-self-center
-                  p.mb-2 Registro o licencia de importación que ampare la mercancía
+                  p.mb-2 Registro o licencia de importación que ampare la mercancía.
 
           .row.justify-content-end
             .col-md-5
               .row.card-custom--right
                 .col-auto.align-self-center
-                  p.mb-2 Factura comercial
+                  p.mb-2 Factura comercial.
                 .col-auto
                   figure
                     img.mx-auto(
@@ -545,12 +545,12 @@
                       style='width: 58px'
                     )
                 .col-9.align-self-center
-                  p.mb-2 Documento de transporte
+                  p.mb-2 Documento de transporte.
           .row.justify-content-end
             .col-md-5
               .row.card-custom--right
                 .col-auto.align-self-center
-                  p.mb-2 Lista de empaque
+                  p.mb-2 Lista de empaque.
                 .col-auto
                   figure
                     img.mx-auto(
@@ -569,12 +569,12 @@
                       style='width: 58px'
                     )
                 .col-9.align-self-center
-                  p.mb-2 Certificado de sanidad
+                  p.mb-2 Certificado de sanidad.
           .row.justify-content-end
             .col-md-5
               .row.card-custom--right
                 .col-auto.align-self-center
-                  p.mb-2 Lista de empaque
+                  p.mb-2 Lista de empaque.
                 .col-auto
                   figure
                     img.mx-auto(
@@ -594,12 +594,12 @@
                       style='width: 58px'
                     )
                 .col-9.align-self-center
-                  p.mb-2 Mandato, cuando no exista endoso aduanero
+                  p.mb-2 Mandato, cuando no exista endoso aduanero.
           .row.justify-content-end
             .col-md-5
               .row.card-custom--right
                 .col.align-self-center
-                  p.mb-2 Declaración andina del valor en aduana, si se requiere
+                  p.mb-2 Declaración andina del valor en aduana, si se requiere.
                 .col-auto.align-self-center
                   figure
                     img.mx-auto(
@@ -619,12 +619,12 @@
                       style='width: 58px'
                     )
                 .col.align-self-center
-                  p.mb-2 Declaración de exportación o el documento que acredite la operación de exportación
+                  p.mb-2 Declaración de exportación o el documento que acredite la operación de exportación.
           .row.justify-content-end
             .col-md-5
               .row.card-custom--right
                 .col.align-self-center
-                  p.mb-2 Las autorizaciones previas para la importación de determinadas mercancías establecidas por la DIAN
+                  p.mb-2 Las autorizaciones previas para la importación de determinadas mercancías establecidas por la DIAN.
                 .col-auto.align-self-center
                   figure
                     img.mx-auto.ali-self-center(
@@ -650,7 +650,7 @@
             .col-md-5
               .row.card-custom--right
                 .col.align-self-center
-                  p.mb-2 Otros certificados o vistos buenos, si se requieren
+                  p.mb-2 Otros certificados o vistos buenos, si se requieren.
                 .col-auto.align-self-center
                   figure
                     img.mx-auto(
@@ -925,7 +925,7 @@
                       p.mb-0 Exportación de menajes.
                     li 
                       i.fas.fa-check
-                      p.mb-0 Programas Especiales de Exportación.
+                      p.mb-0 Programas especiales de exportación.
 
     .row.justify-content-center
       .col-lg-8
