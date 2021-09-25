@@ -37,14 +37,14 @@
               img(src='@/assets/curso/tema2/icon1.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas1
                 .p-5.pb-0.mb-5
-                  p.text-center Cuando la inspección aduanera implica la verificación de la mercancía, será física y cuando se realiza únicamente con base en la información contenida en la declaración y en los documentos que acompañan, será documental. (Decreto 1164 de 2019. Hoja 11).
+                  p.text-center Cuando la inspección aduanera implica la verificación de la mercancía, será física y cuando se realiza únicamente con base en la información contenida en la declaración y en los documentos que acompañan, será documental. (Decreto 1165 de 2019. Hoja 11).
           
           .col-lg-5.mb-5(style='padding-left: 20px')
             .tarjeta-avatar(data-aos='flip-left')
               img(src='@/assets/curso/tema2/icon1.svg', alt='AvatarTop')
               .bordeSuperior.cac.fblanco.bg-tarjetas2
                 .p-5.pb-0.mb-5
-                  p.text-center La inspección aduanera física será no intrusiva cuando la revisión se realice a través de equipos de alta tecnología que no implique la apertura de las unidades de carga o de los bultos. (Decreto 1164 de 2019. Hoja 11).
+                  p.text-center La inspección aduanera física será no intrusiva cuando la revisión se realice a través de equipos de alta tecnología que no implique la apertura de las unidades de carga o de los bultos. (Decreto 1165 de 2019. Hoja 11).
 
 
 
