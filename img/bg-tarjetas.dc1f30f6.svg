@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="490" height="237" viewBox="0 0 490 237">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_33880" data-name="Rectángulo 33880" width="490" height="237" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="bg-tarjetas" opacity="0.07" clip-path="url(#clip-path)">
+    <rect id="Rectángulo_33879" data-name="Rectángulo 33879" width="620.53" height="574.933" rx="17" transform="translate(543.084 569.23) rotate(163)" fill="#36a3f7"/>
+  </g>
+</svg>
