@@ -496,7 +496,7 @@
         .row.justify-content-center
           .col-6
             p.mb-4 Dicha normativa fija una condición y presentación que el declarante está obligado a realizar, además de establecer un tiempo de conservación de los documentos originales que deben ser presentados según el requerimiento de las autoridades aduaneras.
-            p.mb-4 A continuación, se presentan los documentos soporte para la declaración de importación contemplados en el Decreto 1165 de 2019. Es obligatorio que el importador antes de la presentación y aceptación de la declaración de importación se diligencie los siguientes documentos:
+            p.mb-4 A continuación, se presentan los documentos soporte para la declaración de importación contemplados en el Decreto 1165 de 2019. Es obligatorio que el importador antes de la presentación y aceptación de la declaración de importación diligencie los siguientes documentos:
           .col-6
             figure.mb-5
               img.mx-auto(
